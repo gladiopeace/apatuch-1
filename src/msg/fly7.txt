@@ -1,0 +1,8 @@
+*Status Pesanan:*
+
+STATUS : DIPROSES
+Waktu: %waktu
+Tanggal: %tanggal
+
+*MOHON MENUNGGU SESUAI ESTIMASI*
+    >> NEXT ORDER <<

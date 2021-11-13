@@ -1,0 +1,8 @@
+*Status Pesanan:*
+
+STATUS : DONE, SILAHKAN DICEK
+Waktu: %waktu
+Tanggal: %tanggal
+
+*TERIMAKASIH TELAH ORDER*
+    >> NEXT ORDER <<
