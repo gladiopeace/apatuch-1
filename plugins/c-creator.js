@@ -1,7 +1,7 @@
 //@amirul.dev
 let handler = async (m, { conn }) => {
 m.reply('nih ownerku')
-conn.sendContact(m.chat, '6282391360347', 'Anggun', m)
+conn.sendContact(m.chat, '6283102050562', 'M Alaika Alyasaar', m)
 }
 handler.help = ['owner']
 handler.tags = ['main']
