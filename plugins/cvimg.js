@@ -14,5 +14,5 @@ handler.help = ['ex']
 handler.tags = ['owner']
 handler.command = /^(ex)$/i
 handler.owner = true
-handler.register = true
+handler.register = false
 module.exports = handler
