@@ -4,7 +4,7 @@ const fs = require('node-fetch')
 let img = await (await fs('https://i.ibb.co/t2L1jbH/IMG-20211114-WA0008.jpg')).buffer()
 let a = '```'
 conn.send2BtnImg(m.chat, img, `🏪 *Payment E-wallet* 🏪
-🍡 DANA: ~085155333010~ *LIMIT*
+🍡 DANA: 085155333010
 🍡 OVO : 085155333010
 🍡 Gopay : 085155333010
 🎲 Qris : Ada diatas
