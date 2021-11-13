@@ -21,7 +21,7 @@ let a = '```'
 global.pict = 'https://telegra.ph/file/7a500b34519811d5c55dc.jpg'
 global.name = 'Fly Store Bot'
 global.footer = `${week} ${date}
-Time: ${time} WIB
+Time Server: ${time} WIB
 
 © bot by amirul dev`
 global.sw = ["6283102050562", "6283102050562", "6285157489446"]
