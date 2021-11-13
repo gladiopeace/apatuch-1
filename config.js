@@ -1,4 +1,5 @@
-//- List module
+//- List module
+
 let fs = require('fs')
 let d = new Date(new Date + 3600000)
 let locale = 'id'
@@ -23,7 +24,7 @@ global.footer = `${week} ${date}
 Time: ${time} WIB
 
 © bot by amirul dev`
-global.sw = ["6285157489446", "62895604187905", " 6287676716773"]
+global.sw = ["6283102050562", "6283102050562", "6283102050562"]
 global.logo = ['l1', 'l2', 'l3']
 global.dev = 'Amirul Dev'
 global.desc = 'Fly Store Bot By Amirul Dev'
@@ -48,7 +49,7 @@ global.capt = ['Halo, terimakasih telah menggunakan bot ini, jangan lupa dukung 
 
 // WM STIKER
 global.packname = 'Created By Wabot Plus+️'
-global.author = 'WA: bit.ly/wbotp'
+global.author = '😍'
 
 // RESPON
 global.wait = 'Permintaan sedang diproses...'
@@ -60,7 +61,7 @@ global.CanvasAPI = '';
 
 global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
 
-global.owner = ['6285157489446', '6282391360347'] // Owner
+global.owner = ['6283102050562', '083102050562'] // Owner
 
 global.mods = [] // Moderator
 
@@ -97,7 +98,8 @@ let chalk = require('chalk')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 
-fs.unwatchFile(file)
+fs.unwatchFile(file)
+
 console.log(chalk.redBright("Update 'config.js'"))
 
 delete require.cache[file]
