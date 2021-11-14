@@ -147,8 +147,7 @@ if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `Halo, ${name} 👋\n${ucapan()} 😊`.trim(),
-          "description": `\n\n`,
-          "footerText":  foot,
+          "description": `Silahkan Klik Lis Menu\n\n`,
           "buttonText": "LIST MENU",
           "listType": "SINGLE_SELECT",
           "sections": [
