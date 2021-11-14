@@ -147,7 +147,7 @@ if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `Halo, ${name} 👋\n${ucapan()} 😊`.trim(),
-          "description": ` `,
+          "description": `\n\n`,
           "footerText":  foot,
           "buttonText": "LIST MENU",
           "listType": "SINGLE_SELECT",
@@ -192,7 +192,7 @@ previewType: 0,
             "quotedMessage": {
              "imageMessage": {
              "mimeType": "image/jpeg",
-			    "caption": `Bot Top Up Game`,
+			    "caption": `Hageuy Game Store`,
              "jpegThumbnail": await (await fetch("https://telegra.ph/file/230ab9a20cc36d3133549.jpg")).buffer()
     }
 			}
