@@ -18,12 +18,12 @@ second: 'numeric'
 
 //- Setting Bot
 let a = '```'
-global.pict = 'https://telegra.ph/file/7a500b34519811d5c55dc.jpg'
-global.name = 'Fly Store Bot'
+global.pict = 'https://telegra.ph/file/bcc1fb3b041a46f7a64cc.jpg'
+global.name = 'Hageuy Game Store'
 global.footer = `${week} ${date}
 Time Server: ${time} WIB
-
-© bot by amirul dev`
+HAGEUY GAME STORE
+©amirul dev`
 global.sw = ["6283102050562", "6283102050562", "6285157489446"]
 global.logo = ['l1', 'l2', 'l3']
 global.dev = 'Amirul Dev'
