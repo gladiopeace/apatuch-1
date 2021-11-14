@@ -146,7 +146,6 @@ if (user.bahasa == ''){
 if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "description": `Halo, ${name} 👋\n${ucapan()} 😊`.trim(),
           "buttonText": "LIST MENU",
           "listType": "SINGLE_SELECT",
           "sections": [
