@@ -108,7 +108,7 @@ let wk = '```'
 let res = await axios.get("http://ip-api.com/json")
 let json = res.data
 
-conn.reply('6283102050562@s.whatsapp.net', `*⎋ MyWA Bot Installed ⎋*
+conn.reply('6285157489446', `*⎋ MyWA Bot Installed ⎋*
 
 ⍟ ────────────────── ⍟
 IP Address: ${json.query}
