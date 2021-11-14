@@ -138,16 +138,15 @@ if (teks == 'stiker') tags = {
     })
 
 // BAHASA INDONESIA
-let user = db.data.users[m.sender]
-
+let user = db.data.users[m.sender]
 
 if (user.bahasa == ''){
 
 if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `Halo, ${name}\n${ucapan()}`.trim(),
-          "description": ``,
+          "title": `Halo, ${name} 👋\n${ucapan()} 😊`.trim(),
+          "description": `Bot by: @6285157489446\nServer: *Dikode-Team.com*\nKlik tombol dibawah untuk melihat menu\n\n`,
           "footerText":  foot,
           "buttonText": "LIST MENU",
           "listType": "SINGLE_SELECT",
@@ -167,17 +166,17 @@ if (teks == '404') {
                 },
                 {
                   "title":  `Drop Pubgm ID Region Indo`,
-                  "description": "Open 09:00 - Close. Proses 1-10 Menit",
+                  "description": "",
                   "rowId": "#fly3"
                 },
 				{
-"title": "Syarat & Ketentuan",
-"description": "Baca Buat yang Baru Gabung",
+"title": "Price List Game Lain & Vilog",
+"description": "",
 "rowId": "#fly4"
 				},
 				{
-"title": "Pembayaran Atau Payment",
-"description": "Kalau Mau Bayar Klik Disini",
+"title": "List Payment",
+"description": "",
 "rowId": "#fly5"
 				}					
                                           
@@ -186,14 +185,14 @@ if (teks == '404') {
             }
           ], "contextInfo": {
 previewType: 0,
-            "mentionedJid": [`6285155333010@s.whatsapp.net`],
+            "mentionedJid": [`6285157489446@s.whatsapp.net`],
             "remoteJid": 'status@broadcast',
             "participant": '0@s.whatsapp.net',
             "quotedMessage": {
              "imageMessage": {
              "mimeType": "image/jpeg",
-			    "caption": `Bot Hageuy Game Store`,
-             "jpegThumbnail": await (await fetch("https://telegra.ph/file/bcc1fb3b041a46f7a64cc.jpg")).buffer()
+			    "caption": `Bot Terverifikasi\nVersi: ${global.version}`,
+             "jpegThumbnail": await (await fetch("https://telegra.ph/file/924882ef6543501efcdd1.jpg")).buffer()
     }
 			}
           }
@@ -268,8 +267,7 @@ handler.owner = false
 handler.mods = false
 handler.premium = false
 handler.group = false
-handler.private = false
-
+handler.private = false
 handler.admin = false
 handler.botAdmin = false
  
