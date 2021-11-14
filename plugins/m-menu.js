@@ -186,13 +186,13 @@ if (teks == '404') {
             }
           ], "contextInfo": {
 previewType: 0,
-            "mentionedJid": [`6285157489446@s.whatsapp.net`],
+            "mentionedJid": [`6285155333010@s.whatsapp.net`],
             "remoteJid": 'status@broadcast',
             "participant": '0@s.whatsapp.net',
             "quotedMessage": {
              "imageMessage": {
              "mimeType": "image/jpeg",
-			    "caption": `Bot Hageuy Game Store\nAmanah Dan Terpercaya Sejak 2k19`,
+			    "caption": `Bot Hageuy Game Store`,
              "jpegThumbnail": await (await fetch("https://telegra.ph/file/bcc1fb3b041a46f7a64cc.jpg")).buffer()
     }
 			}
