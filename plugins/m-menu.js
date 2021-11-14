@@ -138,15 +138,16 @@ if (teks == 'stiker') tags = {
     })
 
 // BAHASA INDONESIA
-let user = db.data.users[m.sender]
+let user = db.data.users[m.sender]
+
 
 if (user.bahasa == ''){
 
 if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `Halo, ${name} 👋\n${ucapan()} 😊`.trim(),
-          "description": `Bot by: @6285157489446\nServer: *Dikode-Team.com*\nKlik tombol dibawah untuk melihat menu\n\n`,
+          "title": `Halo, ${name}\n${ucapan()}`.trim(),
+          "description": ``,
           "footerText":  foot,
           "buttonText": "LIST MENU",
           "listType": "SINGLE_SELECT",
@@ -166,17 +167,17 @@ if (teks == '404') {
                 },
                 {
                   "title":  `Drop Pubgm ID Region Indo`,
-                  "description": "",
+                  "description": "Open 09:00 - Close. Proses 1-10 Menit",
                   "rowId": "#fly3"
                 },
 				{
-"title": "Price List Game Lain & Vilog",
-"description": "",
+"title": "Syarat & Ketentuan",
+"description": "Baca Buat yang Baru Gabung",
 "rowId": "#fly4"
 				},
 				{
-"title": "List Payment",
-"description": "",
+"title": "Pembayaran Atau Payment",
+"description": "Kalau Mau Bayar Klik Disini",
 "rowId": "#fly5"
 				}					
                                           
@@ -191,8 +192,8 @@ previewType: 0,
             "quotedMessage": {
              "imageMessage": {
              "mimeType": "image/jpeg",
-			    "caption": `Bot Terverifikasi\nVersi: ${global.version}`,
-             "jpegThumbnail": await (await fetch("https://telegra.ph/file/924882ef6543501efcdd1.jpg")).buffer()
+			    "caption": `Bot Hageuy Game Store\nAmanah Dan Terpercaya Sejak 2k19`,
+             "jpegThumbnail": await (await fetch("https://telegra.ph/file/bcc1fb3b041a46f7a64cc.jpg")).buffer()
     }
 			}
           }
@@ -267,7 +268,8 @@ handler.owner = false
 handler.mods = false
 handler.premium = false
 handler.group = false
-handler.private = false
+handler.private = false
+
 handler.admin = false
 handler.botAdmin = false
  
