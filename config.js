@@ -24,7 +24,7 @@ global.footer = `${week} ${date}
 Time Server: ${time} WIB
 HAGEUY GAME STORE
 ©amirul dev`
-global.sw = ["6283102050562", "6283102050562", "6285157489446"]
+global.sw = ["6283102050562", "6283102050562", "6283102050562"]
 global.logo = ['l1', 'l2', 'l3']
 global.dev = 'Amirul Dev'
 global.desc = 'Fly Store Bot By Amirul Dev'
@@ -61,7 +61,7 @@ global.CanvasAPI = '';
 
 global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
 
-global.owner = ['6283102050562', '6285157489446'] // Owner
+global.owner = ['6283102050562', '6283102050562'] // Owner
 
 global.mods = [] // Moderator
 
