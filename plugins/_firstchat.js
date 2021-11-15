@@ -13,7 +13,7 @@ handler.all = async function (m) {
 Terimakasih telah mengirim pesan kepada saya.
 _saya akan membalasnya jika saya online_
 ${user.banned ? 'kamu dibanned' : ''}
-`.trim(), '- *PESAN OTOMATIS*', user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? ',owner' : ',?', m)
+`.trim(), '- *PESAN OTOMATIS*', user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? ',owner' : '*menu', m)
     user.pc = new Date * 1
 }
 
