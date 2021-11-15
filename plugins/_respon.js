@@ -46,7 +46,7 @@ untuk saat ini, bot belum siap untuk masuk ke grup, silahkan tunggu bot 100% jad
     let isSalam = reg.exec(m.text)
     if (isSalam && !m.fromMe) {
 let img = fs.readFileSync('tmp/salam.jpg')
-this.sendLoc(m.chat, img, `وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`, foot, 'MENU BOT', '#menu')
+this.sendBtn(m.chat, img, `وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`, foot, 'MENU BOT', '#menu')
     }
 
 /*Bot dipanggil
