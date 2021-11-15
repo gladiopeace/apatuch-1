@@ -7,7 +7,7 @@ let handler = async (m, { conn, text }) => {
   for (let id of groups) {
     await delay(1500)
 //    await conn.copyNForward(id, conn.cMod(m.chat, cc, /bc|broadcast/i.test(teks) ? teks : '〔 Stike 〕\n\n' + teks + '\n\n' + '© stikerin'), true).catch(_ => _)
-await conn.send2Btn(id, teks, global.footer, 'MENU', '#menu', 'OWNER', '#owner')
+await conn.send2Btn(id, teks, global.footer, 'MENU', '*menu', 'OWNER', '*owner')
   }
   m.reply('_*Broadcast Selesai*_')
 }
