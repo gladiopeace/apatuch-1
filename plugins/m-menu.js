@@ -156,92 +156,92 @@ if (teks == '404') {
                 {
                   "title": "Produk Arminadaily",
                   "description": "",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 		{
                   "title":  `Diamond Mobile Legens`,
                   "description": "",
-                  "rowId": "#fly1"
+                  "rowId": "*fly1"
                 },
                 {
                   "title":  `Diamond Free Fire`,
                   "description": "",
-                  "rowId": "#fly2"
+                  "rowId": "*fly2"
                 },
                 {
                   "title":  `Uc Pubgm ID Region Indo`,
                   "description": "",
-                  "rowId": "#fly3"
+                  "rowId": "*fly3"
                 },
     		{
                   "title": "Top Up Ovo/Gopay/Dana",
                   "description": "",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 		{
                   "title": "Pulsa",
                   "description": "",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 		{
                   "title": "Kuota Internet & Voucher",
                   "description": "",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 		{
                   "title": "Token Listrik",
                   "description": "",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 		{
                   "title": "Beli Followers Instagram",
                   "description": "",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 		{
                   "title": "Beli Like Post Instagram",
                   "description": "",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 		{
                   "title": "Beli Comment Post Instagram",
                   "description": "",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 	        {
                   "title": "Beli Followers Facebook",
                   "description": "",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 		{
                   "title": "Beli Like Post Facebook",
                   "description": "",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 		{
                   "title": "Beli Comment Post Facebook",
                   "description": "",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 		{
                   "title": "Beli Subcribe Channel Telegram",
                   "description": "",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 		{
                   "title": "Beli Anggota Group Telegram",
                   "description": "",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 		{
                   "title": "Syarat & Ketentuan",
                   "description": "harap dibaca ya kak",
-                  "rowId": "#fly4"
+                  "rowId": "*fly4"
 		},
 		{
                   "title": "Pembayaran Atau List Payment",
                   "description": "bingung mau bayar ke mana?? klik ini.",
-                  "rowId": "#fly5"
+                  "rowId": "*fly5"
 		}					
                                           
  
