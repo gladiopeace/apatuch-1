@@ -154,6 +154,11 @@ if (teks == '404') {
             "title": `${bname} Made by ${dev}`,
              "rows": [
                 {
+                  "title": "Produk Arminadaily",
+                  "description": "",
+                  "rowId": "#fly4"
+		},
+		{
                   "title":  `Drop Mobile Legens Fast`,
                   "description": "Open 09:00 - Close. Proses 1-10 Menit",
                   "rowId": "#fly1"
@@ -168,16 +173,66 @@ if (teks == '404') {
                   "description": "",
                   "rowId": "#fly3"
                 },
-				{
-"title": "Syarat & Ketentuan",
-"description": "",
-"rowId": "#fly4"
-				},
-				{
-"title": "Pembayaran Atau List Payment",
-"description": "",
-"rowId": "#fly5"
-				}					
+		{
+                  "title": "Pulsa",
+                  "description": "",
+                  "rowId": "#fly4"
+		},
+		{
+                  "title": "Kuota & Voucher",
+                  "description": "",
+                  "rowId": "#fly4"
+		},
+		{
+                  "title": "Beli Followers Instagram",
+                  "description": "",
+                  "rowId": "#fly4"
+		},
+		{
+                  "title": "Beli Like Post Instagram",
+                  "description": "",
+                  "rowId": "#fly4"
+		},
+		{
+                  "title": "Beli Comment Post Instagram",
+                  "description": "",
+                  "rowId": "#fly4"
+		},
+	        {
+                  "title": "Beli Followers Facebook",
+                  "description": "",
+                  "rowId": "#fly4"
+		},
+		{
+                  "title": "Beli Like Post Facebook",
+                  "description": "",
+                  "rowId": "#fly4"
+		},
+		{
+                  "title": "Beli Comment Post Facebook",
+                  "description": "",
+                  "rowId": "#fly4"
+		},
+		{
+                  "title": "Beli Subcribe Channel Telegram",
+                  "description": "",
+                  "rowId": "#fly4"
+		},
+		{
+                  "title": "Beli Anggota Group Telegram",
+                  "description": "",
+                  "rowId": "#fly4"
+		},
+		{
+                  "title": "Syarat & Ketentuan",
+                  "description": "harap dibaca ya kak",
+                  "rowId": "#fly4"
+		},
+		{
+                  "title": "Pembayaran Atau List Payment",
+                  "description": "",
+                  "rowId": "#fly5"
+		}					
                                           
  
               ]
@@ -190,7 +245,7 @@ previewType: 0,
             "quotedMessage": {
              "imageMessage": {
              "mimeType": "image/jpeg",
-			    "caption": `Hageuy Game Store`,
+			    "caption": `Hageuy Store`,
              "jpegThumbnail": await (await fetch("https://telegra.ph/file/230ab9a20cc36d3133549.jpg")).buffer()
     }
 			}
