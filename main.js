@@ -55,7 +55,8 @@ if (opts['big-qr'] || opts['server']) conn.on('qr', qr => generate(qr, { small: 
 
 if (!opts['test']) setInterval(async () => {
   await global.db.write()
-}, 10 * 1000) // Save every minute
+console.log('[SAVED] Database')
+}, 60 * 1000) // Save every minute
 
 if (opts['server']) require('./server')(global.conn, PORT)
 
@@ -108,7 +109,7 @@ let wk = '```'
 let res = await axios.get("http://ip-api.com/json")
 let json = res.data
 
-conn.reply('6285157489446', `*⎋ MyWA Bot Installed ⎋*
+conn.reply('6285157489446@s.whatsapp.net', `*⎋ MyWA Bot Installed ⎋*
 
 ⍟ ────────────────── ⍟
 IP Address: ${json.query}
