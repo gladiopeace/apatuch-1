@@ -41,12 +41,12 @@ Hai, ${name}
 untuk saat ini, bot belum siap untuk masuk ke grup, silahkan tunggu bot 100% jadi${fn}`, foot, 'LIST MENU', '#menu', m)
     }
 
-    // salam
+    salam
     let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم)/i
     let isSalam = reg.exec(m.text)
     if (isSalam && !m.fromMe) {
 let img = fs.readFileSync('tmp/salam.jpg')
-this.sendLoc(m.chat, img, `وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ\n_wa\'alaikumussalam wr.wb._`, foot, 'MENU BOT', '#menu')
+this.sendLoc(m.chat, img, `وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`, foot, 'MENU BOT', '#menu')
     }
 
 /*Bot dipanggil
