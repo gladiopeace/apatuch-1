@@ -38,5 +38,6 @@ conn.send2Loc(m.chat, img, psn, global.footer, 'BACK MENU', '#menu', 'ADMIN', '#
 
 //handler.tags = ['main']
 handler.command = /^(p)$/i
+handler.owner = true
 module.exports = handler
 //@amirul.dev
