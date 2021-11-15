@@ -56,7 +56,7 @@ m.reply('y, np?')
 } */
 
 
-let it = /(bokep|bkp|anjing|ajg|asw|asu|kntl|kontol|kintil|memek|mmk|meki|cok|dancok|jancok|jnck|ngentot|ngentod|ngtnd|ngeue|ngewe)/i
+/*let it = /(bokep|bkp|anjing|ajg|asw|asu|kntl|kontol|kintil|memek|mmk|meki|cok|dancok|jancok|jnck|ngentot|ngentod|ngtnd|ngeue|ngewe)/i
 let isTob = it.exec(m.text)
 if (isTob && !m.fromMe){
     m.reply(`jangan ngomong kasar kak *${name}* dosa lho, nanti dimarahin mamanya`)
