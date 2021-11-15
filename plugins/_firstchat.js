@@ -9,7 +9,7 @@ handler.all = async function (m) {
     if (db.data.settings.groupOnly) return
     let user = global.db.data.users[m.sender]
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
-    await this.sendButton(m.chat, `
+    await this.sendBtn(m.chat, `
 Hai, ${ucapan()}
 
 ${user.banned ? 'kamu dibanned' : 'Terimakasih sudah menghubungi saya.\nAlaika Saat ini sedang off. Alaika akan segera membalas ketika online.'}
