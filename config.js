@@ -19,15 +19,14 @@ second: 'numeric'
 //- Setting Bot
 let a = '```'
 global.pict = 'https://telegra.ph/file/bcc1fb3b041a46f7a64cc.jpg'
-global.name = 'Hageuy Game Store'
+global.name = 'Hageuy Store'
 global.footer = `${week} ${date}
-Time Server: ${time} WIB
-HAGEUY GAME STORE
+مَنْ جَدَّ وَ جَدَ
 ©amirul dev`
 global.sw = ["6283102050562", "6283102050562", "6283102050562"]
 global.logo = ['l1', 'l2', 'l3']
-global.dev = 'Amirul Dev'
-global.desc = 'Fly Store Bot By Amirul Dev'
+global.dev = 'Hageuy Store'
+global.desc = 'Hageuy Store'
 global.browser = 'Firefox'
 global.version = '1.0.4'
 global.rules = `*RULES WABOT PLUS+
@@ -48,7 +47,7 @@ Apabila melanggar akan di banned permanen`,
 global.capt = ['Halo, terimakasih telah menggunakan bot ini, jangan lupa dukung bot ini dengan cara donasi yah', 'Terimakasih telah menggunakan bot ini, dimohon mematuhi semua rules dan tidak spam ke bot, happy boters guys 😊', 'Hai 👋/nthanks uda menggunakan bot ini, apabila ada fitur yang eror atau bug, silahkan lapor ke owner langsung yah', 'Hai kak 👋\nHave a nice day. gunakan bot sewajarnya aja yah.. jangan spam dan jangan diperjual belikan, bot ini gratis tidak ada unsur sewa²an kecuali fitur fitur tertentu!!']
 
 // WM STIKER
-global.packname = 'Created By Wabot Plus+️'
+global.packname = 'Hageuy Store'
 global.author = '😍'
 
 // RESPON
