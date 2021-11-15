@@ -55,12 +55,11 @@ if (isBot && !m.fromMe){
 m.reply('y, np?')
 } */
 
-/*
+
 let it = /(bokep|bkp|anjing|ajg|asw|asu|kntl|kontol|kintil|memek|mmk|meki|cok|dancok|jancok|jnck|ngentot|ngentod|ngtnd|ngeue|ngewe)/i
 let isTob = it.exec(m.text)
 if (isTob && !m.fromMe){
-this.sendBtn(m.chat, `Astaghfirullah *${name}* 🤦‍♂️
-ingat kak`, foot, 'ASTAGHFIRULLAH 😢', '#zep', m)
+    m.reply(`jangan ngomong kasar kak *${name}* dosa lho, nanti dimarahin mamanya`)
 }
 */
 
@@ -80,7 +79,7 @@ ingat kak`, foot, 'ASTAGHFIRULLAH 😢', '#zep', m)
         }
     }
 
-    // update status
+   /* // update status
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
