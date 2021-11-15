@@ -159,27 +159,37 @@ if (teks == '404') {
                   "rowId": "#fly4"
 		},
 		{
-                  "title":  `Drop Mobile Legens Fast`,
-                  "description": "Open 09:00 - Close. Proses 1-10 Menit",
+                  "title":  `Diamond Mobile Legens`,
+                  "description": "",
                   "rowId": "#fly1"
                 },
                 {
-                  "title":  `Price List Diamond Free Fire`,
-                  "description": "Proses 1-10 Menit. via ID & Nickname",
+                  "title":  `Diamond Free Fire`,
+                  "description": "",
                   "rowId": "#fly2"
                 },
                 {
-                  "title":  `Drop Pubgm ID Region Indo`,
+                  "title":  `Uc Pubgm ID Region Indo`,
                   "description": "",
                   "rowId": "#fly3"
                 },
+    		{
+                  "title": "Top Up Ovo/Gopay/Dana",
+                  "description": "",
+                  "rowId": "#fly4"
+		},
 		{
                   "title": "Pulsa",
                   "description": "",
                   "rowId": "#fly4"
 		},
 		{
-                  "title": "Kuota & Voucher",
+                  "title": "Kuota Internet & Voucher",
+                  "description": "",
+                  "rowId": "#fly4"
+		},
+		{
+                  "title": "Token Listrik",
                   "description": "",
                   "rowId": "#fly4"
 		},
@@ -230,7 +240,7 @@ if (teks == '404') {
 		},
 		{
                   "title": "Pembayaran Atau List Payment",
-                  "description": "",
+                  "description": "bingung mau bayar ke mana?? klik ini.",
                   "rowId": "#fly5"
 		}					
                                           
