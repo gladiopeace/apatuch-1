@@ -6,8 +6,8 @@ let isi = fs.readFileSync('src/msg/fly4.txt', 'utf8')
 let a = '```'
 conn.send2Loc(m.chat, img, isi, global.footer, 'BACK MENU', '*menu', 'ADMIN', '*owner')
 }
-handler.help = ['folfa']
+handler.help = ['folfb']
 handler.tags = ['main']
-handler.command = /^(folfa)$/i
+handler.command = /^(folfb)$/i
 module.exports = handler
 //@amirul.dev
