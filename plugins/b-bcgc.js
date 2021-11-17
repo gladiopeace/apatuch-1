@@ -13,7 +13,7 @@ await conn.send2Btn(id, teks, global.footer, 'MENU', '*menu', 'OWNER', '*owner')
 }
 handler.help = ['broadcastgroup', 'bcgc'].map(v => v + ' <teks>')
 handler.tags = ['owner']
-handler.command = /^(broadcast|bc)(group|grup|gc)$/i
+handler.command = /^(teruskangroup)$/i
 handler.owner = true
 handler.mods = false
 handler.premium = false
