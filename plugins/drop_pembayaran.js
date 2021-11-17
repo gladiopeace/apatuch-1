@@ -8,8 +8,11 @@ conn.send2BtnImg(m.chat, img, `🏪 *Payment E-wallet* 🏪
 🍡 OVO : 085155333010
 🍡 Gopay : 085155333010
 🎲 Qris : Ada diatas
+PEMBAYARAN VIA ALFAMART
+HUBUNGI ABMIN
 (Transaksi Dibawah 10k Dana Only)
-Semua payment A/n  : *M. ALAIKA ALYASAAR*`, global.footer, 'BACK MENU', '#menu', 'ADMIN', '#owner')
+Semua payment A/n  : 
+*M. ALAIKA ALYASAAR*`, global.footer, 'BACK MENU', '#menu', 'ADMIN', '#owner')
 }
 handler.help = ['fly5']
 handler.tags = ['main']
