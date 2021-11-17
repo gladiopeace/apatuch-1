@@ -173,7 +173,7 @@ if (teks == '404') {
                   "description": "",
                   "rowId": "*fly3"
                 },
-    		{
+ /*   		{
                   "title": "Top Up Ovo/Gopay/Dana",
                   "description": "",
                   "rowId": "*fly4"
@@ -232,7 +232,7 @@ if (teks == '404') {
                   "title": "Beli Anggota Group Telegram",
                   "description": "",
                   "rowId": "*angtele"
-		},
+		},*/
 		{
                   "title": "Syarat & Ketentuan",
                   "description": "harap dibaca ya kak",
