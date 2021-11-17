@@ -44,7 +44,7 @@ if (!isOwner) {
 fs.readFileSync('src/msg/fly3.txt')
 break
 
-case 'fly4':
+case 'Syarat_Ketentuan':
 if (!m.isGroup) {
 if (!isOwner) {
  }
