@@ -187,7 +187,17 @@ break
 fs.writeFileSync('src/msg/syarat.txt', is)
 break
   
- //-18◈ List Payment - fly5
+ //-18◈ menu - menu
+ case 'menu':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/menu.txt', is)
+break
+  
+ //-19◈ List Payment - fly5
 case 'fly5':
 if (!m.isGroup) {
 if (!isOwner) {
@@ -217,13 +227,14 @@ if (!/[01]/.test(command)) throw `*⎋ LIST EDITOR ⎋*
 15◈ Subcribe Channel Telegram - subtele
 16◈ Anggota Group Telegram - angtele
 17◈ Syarat & Ketentuan - syarat
-18◈ List Payment - fly5`.trim()
+18◈ menu - menu
+19◈ List Payment - fly5`.trim()
 throw false
 }
  
  
 let img = fs.readFileSync('tmp/SAVE_20211115_044443.jpg')
-let msg = type.replace('arminadaily', 'Produk Arminadaily telah diubah').replace('fly1', 'Drop Mobile Legend telah diubah').replace('fly2', 'Price Diamond FF telah diubah').replace('fly3', 'Drop Pubgm telah diubah').replace('topupdana', 'Top Up Ovo Gopay Dana telah diubah').replace('Pulsa', 'Pulsa telah diubah').replace('kuota', 'kuota internet atau voucer telah diubah').replace('token', 'Token Listrik telah diubah').replace('folig', 'Followers Instagram telah diubah').replace('likeig', 'Like Post Instagram telah diubah').replace('comig', 'Comment Post Instagram telah diubah').replace('folfb', 'Followers Facebook telah diubah').replace('likefb', 'Like Post Facebook telah diubah').replace('comfb', 'Comment Post Facebook telah diubah').replace('subtele', 'Subcribe Channel Telegram telah diubah').replace('angtele', 'Anggota Group Telegram telah diubah').replace('syarat', 'Syarat & Ketentuan telah diubah').replace('fly5', 'List Payment telah diubah')
+let msg = type.replace('arminadaily', 'Produk Arminadaily telah diubah').replace('fly1', 'Drop Mobile Legend telah diubah').replace('fly2', 'Price Diamond FF telah diubah').replace('fly3', 'Drop Pubgm telah diubah').replace('topupdana', 'Top Up Ovo Gopay Dana telah diubah').replace('Pulsa', 'Pulsa telah diubah').replace('kuota', 'kuota internet atau voucer telah diubah').replace('token', 'Token Listrik telah diubah').replace('folig', 'Followers Instagram telah diubah').replace('likeig', 'Like Post Instagram telah diubah').replace('comig', 'Comment Post Instagram telah diubah').replace('folfb', 'Followers Facebook telah diubah').replace('likefb', 'Like Post Facebook telah diubah').replace('comfb', 'Comment Post Facebook telah diubah').replace('subtele', 'Subcribe Channel Telegram telah diubah').replace('angtele', 'Anggota Group Telegram telah diubah').replace('syarat', 'Syarat & Ketentuan telah diubah').replace('menu', 'menu telah diubah').replace('fly5', 'List Payment telah diubah')
  
 await conn.sendLoc(m.chat, img, msg, global.footer, 'LIST MENU', '#menu', null)
  
