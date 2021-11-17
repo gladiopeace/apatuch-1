@@ -226,12 +226,12 @@ if (teks == '404') {
 		{
                   "title": "Beli Subcribe Channel Telegram",
                   "description": "",
-                  "rowId": "*fly4"
+                  "rowId": "*subtele"
 		},
 		{
                   "title": "Beli Anggota Group Telegram",
                   "description": "",
-                  "rowId": "*fly4"
+                  "rowId": "*angtele"
 		},
 		{
                   "title": "Syarat & Ketentuan",
