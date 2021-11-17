@@ -59,6 +59,7 @@ if (!/[01]/.test(command)) throw `*⎋ LIST EDITOR ⎋*
 ◈ Drop Mobile Legend - fly1
 ◈ Price Diamond FF - fly2
 ◈ Drop Pubgm - fly3
+◈ Top Up Ovo Gopay Dana - topupdana
 ◈ Pulsa - pulsa
 ◈ kuota internet atau voucer - kuota
 ◈ Token Listrik - token
@@ -77,7 +78,7 @@ throw false
  
  
 let img = fs.readFileSync('tmp/code.jpeg')
-let msg = type.replace('arminadaily', 'Produk Arminadaily telah diubah').replace('fly1', 'Drop Mobile Legend telah diubah').replace('fly2', 'Price Diamond FF telah diubah').replace('fly3', 'Drop Pubgm telah diubah').replace('Pulsa', 'Pulsa telah diubah').replace('kuota', 'kuota internet atau voucer telah diubah').replace('token', 'Token Listrik telah diubah').replace('folig', 'Followers Instagram telah diubah').replace('likeig', 'Like Post Instagram telah diubah').replace('comig', 'Comment Post Instagram telah diubah').replace('folfb', 'Followers Facebook telah diubah').replace('likefb', 'Like Post Facebook telah diubah').replace('comfb', 'Comment Post Facebook telah diubah').replace('subtele', 'Subcribe Channel Telegram telah diubah').replace('angtele', 'Anggota Group Telegram telah diubah').replace('syarat', 'Syarat & Ketentuan telah diubah').replace('fly5', 'List Payment telah diubah')
+let msg = type.replace('arminadaily', 'Produk Arminadaily telah diubah').replace('fly1', 'Drop Mobile Legend telah diubah').replace('fly2', 'Price Diamond FF telah diubah').replace('fly3', 'Drop Pubgm telah diubah').replace('topupdana', 'Top Up Ovo Gopay Dana telah diubah').replace('Pulsa', 'Pulsa telah diubah').replace('kuota', 'kuota internet atau voucer telah diubah').replace('token', 'Token Listrik telah diubah').replace('folig', 'Followers Instagram telah diubah').replace('likeig', 'Like Post Instagram telah diubah').replace('comig', 'Comment Post Instagram telah diubah').replace('folfb', 'Followers Facebook telah diubah').replace('likefb', 'Like Post Facebook telah diubah').replace('comfb', 'Comment Post Facebook telah diubah').replace('subtele', 'Subcribe Channel Telegram telah diubah').replace('angtele', 'Anggota Group Telegram telah diubah').replace('syarat', 'Syarat & Ketentuan telah diubah').replace('fly5', 'List Payment telah diubah')
  
 await conn.sendLoc(m.chat, img, msg, global.footer, 'LIST MENU', '#menu', null)
  
