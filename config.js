@@ -21,8 +21,7 @@ let a = '```'
 global.pict = 'https://telegra.ph/file/bcc1fb3b041a46f7a64cc.jpg'
 global.name = 'Hageuy Store'
 global.footer = `${week} ${date}
-مَنْ جَدَّ وَ جَدَ
-©amirul dev`
+`
 global.sw = ["6283102050562", "6283102050562", "6283102050562"]
 global.logo = ['l1', 'l2', 'l3']
 global.dev = 'Hageuy Store'
