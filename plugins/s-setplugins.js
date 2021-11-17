@@ -16,6 +16,15 @@ case 'fly1':
 }
 fs.writeFileSync('src/msg/fly1.txt', is)
 break
+  
+ case 'fly1':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/fly1.txt', is)
+break
  
 //- DESC LIST MESSAGE MENU
 case 'fly2':
@@ -55,24 +64,24 @@ default:
  
 if (!/[01]/.test(command)) throw `*⎋ LIST EDITOR ⎋*
  
-◈ Produk Arminadaily - arminadaily
-◈ Drop Mobile Legend - fly1
-◈ Price Diamond FF - fly2
-◈ Drop Pubgm - fly3
-◈ Top Up Ovo Gopay Dana - topupdana
-◈ Pulsa - pulsa
-◈ kuota internet atau voucer - kuota
-◈ Token Listrik - token
-◈ Followers Instagram - folig
-◈ Like Post Instagram - likeig
-◈ Comment Post Instagram - comig
-◈ Followers Facebook - folfb
-◈ Like Post Facebook - likefb
-◈ Comment Post Facebook - comfb
-◈ Subcribe Channel Telegram - subtele
-◈ Anggota Group Telegram - angtele
-◈ Syarat & Ketentuan - syarat
-◈ List Payment - fly5`.trim()
+1◈ Produk Arminadaily - arminadaily
+2◈ Drop Mobile Legend - fly1
+3◈ Price Diamond FF - fly2
+4◈ Drop Pubgm - fly3
+5◈ Top Up Ovo Gopay Dana - topupdana
+6◈ Pulsa - pulsa
+7◈ kuota internet atau voucer - kuota
+8◈ Token Listrik - token
+9◈ Followers Instagram - folig
+10◈ Like Post Instagram - likeig
+11◈ Comment Post Instagram - comig
+12◈ Followers Facebook - folfb
+13◈ Like Post Facebook - likefb
+14◈ Comment Post Facebook - comfb
+15◈ Subcribe Channel Telegram - subtele
+16◈ Anggota Group Telegram - angtele
+17◈ Syarat & Ketentuan - syarat
+18◈ List Payment - fly5`.trim()
 throw false
 }
  
