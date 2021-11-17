@@ -8,7 +8,27 @@ let [type, is] = text.split`|`
 switch (type) {
  
 //- MENU DEFAULT
-case 'fly1':
+case 'arminadaily':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/arminadaily.txt', is)
+break
+
+//-1◈ Produk Arminadaily - arminadaily
+ case 'arminadaily':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/arminadaily.txt', is)
+break
+
+//-2◈ Drop Mobile Legend - fly1
+ case 'fly1':
   if (!m.isGroup) {
   if (!isOwner) {
  
@@ -16,42 +36,158 @@ case 'fly1':
 }
 fs.writeFileSync('src/msg/fly1.txt', is)
 break
+ 
+//-3◈ Price Diamond FF - fly2
+ case 'fly2':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/fly2.txt', is)
+break
   
+//-4◈ Drop Pubgm - fly3
+ case 'fly3':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/fly3.txt', is)
+break
+  
+//-5◈ Top Up Ovo Gopay Dana - topupdana
+ case 'topupdana':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/topupdana.txt', is)
+break
+  
+//-6◈ Pulsa - pulsa
+ case 'pulsa':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/pulsa.txt', is)
+break
+  
+//-7◈ kuota internet atau voucer - kuota
+ case 'kuota':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/kuota.txt', is)
+break
+  
+//-8◈ Token Listrik - token
+ case 'token':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/token.txt', is)
+break
+  
+//-9◈ Followers Instagram - folig
+ case 'folig':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/folig.txt', is)
+break
+  
+//-10◈ Like Post Instagram - likeig
+ case 'likeig':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/likeig.txt', is)
+break
+  
+//-11◈ Comment Post Instagram - comig
+ case 'comig':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/comig.txt', is)
+break
+
+//-12◈ Followers Facebook - folfb
+ case 'folfb':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/folfb.txt', is)
+break
+  
+//-13◈ Like Post Facebook - likefb
+ case 'likefb':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/likefb.txt', is)
+break
+  
+ //-14◈ Comment Post Facebook - comfb
+ case 'comfb':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/comfb.txt', is)
+break
+  
+ //-15◈ Subcribe Channel Telegram - subtele
+ case 'subtele':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/subtele.txt', is)
+break
+
+ //-16◈ Anggota Group Telegram - angtele
+ case 'angtele':
+  if (!m.isGroup) {
+  if (!isOwner) {
+ 
+      }
+}
+fs.writeFileSync('src/msg/angtele.txt', is)
+break
+  
+ //-17◈ Syarat & Ketentuan - syarat
  case 'syarat':
   if (!m.isGroup) {
   if (!isOwner) {
  
       }
 }
-fs.writeFileSync('src/msg/fly4.txt', is)
+fs.writeFileSync('src/msg/syarat.txt', is)
 break
- 
-//- DESC LIST MESSAGE MENU
-case 'fly2':
-if (!m.isGroup) {
-if (!isOwner) {
-}
-}
-fs.writeFileSync('src/msg/fly2.txt', is)
-break
- 
-//- LIST MENU SELECT
-case 'fly3':
-if (!m.isGroup) {
-if (!isOwner) {
- }
-}
-fs.readFileSync('src/msg/fly3.txt')
-break
-
-case 'Syarat_Ketentuan':
-if (!m.isGroup) {
-if (!isOwner) {
- }
-}
-fs.readFileSync('src/msg/fly4.txt')
-break
- 
+  
+ //-18◈ List Payment - fly5
 case 'fly5':
 if (!m.isGroup) {
 if (!isOwner) {
