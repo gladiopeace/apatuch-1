@@ -17,7 +17,7 @@ case 'fly1':
 fs.writeFileSync('src/msg/fly1.txt', is)
 break
   
- case 'fly1':
+ case 'syarat':
   if (!m.isGroup) {
   if (!isOwner) {
  
