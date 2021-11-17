@@ -17,7 +17,7 @@ let fn = '```'
     let { isBanned } = db.data.chats[m.chat]
     let { banned } = db.data.users[m.sender]
 
-// ketika ditag
+/*// ketika ditag
 try {
 if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
 await this.send2Loc(m.chat, fto, 
@@ -30,22 +30,22 @@ ${bname} disini, klik menu untuk melihat list menu${fn}`, foot, isBanned ? 'UNBA
         }
     } catch (e) {
         return
-    }
+    }*/
 
 // invite bot
 /*if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) { */
 
-if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys) {
+/*if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys) {
 this.sendLoc(m.chat, fto, `${fn}〔 Undang Bot ke Grup 〕
 Hai, ${name}
 untuk saat ini, bot belum siap untuk masuk ke grup, silahkan tunggu bot 100% jadi${fn}`, foot, 'LIST MENU', '#menu', m)
-    }
+    }*/
 
-   //salam
-    let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم)/i
-    let isSalam = reg.exec(m.text)
-    if (isSalam && !m.fromMe) {
-        m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`)
+//salam
+let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم)/i
+let isSalam = reg.exec(m.text)
+if (isSalam && !m.fromMe) {
+m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`)
     }
 
 /*Bot dipanggil
@@ -85,7 +85,7 @@ if (isTob && !m.fromMe){
         let uptime = clockString(_uptime)
         await this.setStatus(`Wabot Plus+ | Running: ${uptime}. Mode ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}`).catch(_ => _)
         setting.status = new Date() * 1
-    }
+    }*/
 
 }
 
