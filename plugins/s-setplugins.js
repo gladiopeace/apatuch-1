@@ -193,7 +193,7 @@ if (!m.isGroup) {
 if (!isOwner) {
  }
 }
-fs.readFileSync('src/msg/fly5.txt')
+fs.writeFileSync('src/msg/fly5.txt')
 break
 
 default:
