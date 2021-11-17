@@ -11,10 +11,8 @@ handler.all = async function (m) {
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
     await this.sendBtn(m.chat, `
 Terimakasih telah mengirim pesan kepada saya.
-_saya akan membalasnya jika saya online._
-silahkan klik tombol menu untuk melihat yang saya tawarkan.
-${user.banned ? 'kamu dibanned' : ''}
-`.trim(), '- *PESAN OTOMATIS*\nketik #menu bila tombol tidak muncul.', user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? ',owner' : '*menu', m)
+_saya akan membalas secepatnya._${user.banned ? 'kamu dibanned' : ''}
+`.trim(), '- *PESAN OTOMATIS*\n•computer', user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? ',owner' : '*menu', m)
     user.pc = new Date * 1
 }
 
