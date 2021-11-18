@@ -153,25 +153,40 @@ if (teks == '404') {
             {
             "title": `${bname} Made by ${dev}`,
              "rows": [
-                {
+               /* {
                   "title": "Produk Arminadaily",
                   "description": "",
                   "rowId": "*arminadaily"
-		},
+		},*/
 		{
-                  "title":  `Diamond Mobile Legens`,
+                  "title":  `Diamond Mobile Legedns`,
                   "description": "",
-                  "rowId": "*fly1"
+                  "rowId": "*ml"
+                },
+		{
+                  "title":  `Reseller Mobile Legedns`,
+                  "description": "harga khusus reseller",
+                  "rowId": "*resml"
                 },
                 {
                   "title":  `Diamond Free Fire`,
                   "description": "",
-                  "rowId": "*fly2"
+                  "rowId": "*ff"
+                },
+	        {
+                  "title":  `Reseller Diamond Free Fire`,
+                  "description": "harga khusus reseller",
+                  "rowId": "*resff"
                 },
                 {
-                  "title":  `Uc Pubgm ID Region Indo`,
+                  "title":  `Uc Pubgm Id Indo`,
                   "description": "",
-                  "rowId": "*fly3"
+                  "rowId": "*pubg"
+                },
+                {
+                  "title":  `Reseller Uc Pubgm Id Indo`,
+                  "description": "harga khusus reseller",
+                  "rowId": "*respubg"
                 },
  /*   		{
                   "title": "Top Up Ovo/Gopay/Dana",
@@ -235,12 +250,12 @@ if (teks == '404') {
 		},*/
 		{
                   "title": "Syarat & Ketentuan",
-                  "description": "harap dibaca ya kak",
+                  "description": "",
                   "rowId": "*syarat"
 		},
 		{
                   "title": "Pembayaran Atau List Payment",
-                  "description": "bingung mau bayar ke mana?? klik ini.",
+                  "description": "",
                   "rowId": "*fly5"
 		}					
                                           
@@ -255,7 +270,7 @@ previewType: 0,
             "quotedMessage": {
              "imageMessage": {
              "mimeType": "image/jpeg",
-			    "caption": `Hageuy Store`,
+			    "caption": `Bot Hageuy Store`,
              "jpegThumbnail": await (await fetch("https://telegra.ph/file/230ab9a20cc36d3133549.jpg")).buffer()
     }
 			}
