@@ -11,6 +11,6 @@ conn.send2Loc(m.chat, img, isi, global.footer, 'BACK MENU', '*menu', 'ADMIN', '*
 //handler.help = ['script']
 
 //handler.tags = ['main']
-handler.command = /^(fly1)$/i
+handler.command = /^(ml|Ml|ML)$/i
 module.exports = handler
 //@amirul.dev
