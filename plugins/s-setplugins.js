@@ -27,8 +27,8 @@ break
 fs.writeFileSync('src/msg/arminadaily.txt', is)
 break
 
-//-2◈ Drop Mobile Legend - fly1
- case 'fly1':
+//-2◈ Drop Mobile Legend - ml
+ case 'ml':
   if (!m.isGroup) {
   if (!isOwner) {
  
@@ -37,8 +37,8 @@ break
 fs.writeFileSync('src/msg/fly1.txt', is)
 break
  
-//-3◈ Price Diamond FF - fly2
- case 'fly2':
+//-3◈ Price Diamond FF -ff
+ case 'ff':
   if (!m.isGroup) {
   if (!isOwner) {
  
@@ -47,8 +47,8 @@ break
 fs.writeFileSync('src/msg/fly2.txt', is)
 break
   
-//-4◈ Drop Pubgm - fly3
- case 'fly3':
+//-4◈ Drop Pubgm - pubg
+ case 'pubg':
   if (!m.isGroup) {
   if (!isOwner) {
  
@@ -211,9 +211,9 @@ default:
 if (!/[01]/.test(command)) throw `*⎋ LIST EDITOR ⎋*
  
 1◈ Produk Arminadaily - arminadaily
-2◈ Drop Mobile Legend - fly1
-3◈ Price Diamond FF - fly2
-4◈ Drop Pubgm - fly3
+2◈ Drop Mobile Legend - ml
+3◈ Price Diamond FF - ff
+4◈ Drop Pubgm - pubg
 5◈ Top Up Ovo Gopay Dana - topupdana
 6◈ Pulsa - pulsa
 7◈ kuota internet atau voucer - kuota
@@ -228,13 +228,13 @@ if (!/[01]/.test(command)) throw `*⎋ LIST EDITOR ⎋*
 16◈ Anggota Group Telegram - angtele
 17◈ Syarat & Ketentuan - syarat
 18◈ menu - menu
-19◈ List Payment - fly5`.trim()
+19◈ List Payment - payment`.trim()
 throw false
 }
  
  
 let img = fs.readFileSync('tmp/SAVE_20211115_044443.jpg')
-let msg = type.replace('arminadaily', 'Produk Arminadaily telah diubah').replace('fly1', 'Drop Mobile Legend telah diubah').replace('fly2', 'Price Diamond FF telah diubah').replace('fly3', 'Drop Pubgm telah diubah').replace('topupdana', 'Top Up Ovo Gopay Dana telah diubah').replace('Pulsa', 'Pulsa telah diubah').replace('kuota', 'kuota internet atau voucer telah diubah').replace('token', 'Token Listrik telah diubah').replace('folig', 'Followers Instagram telah diubah').replace('likeig', 'Like Post Instagram telah diubah').replace('comig', 'Comment Post Instagram telah diubah').replace('folfb', 'Followers Facebook telah diubah').replace('likefb', 'Like Post Facebook telah diubah').replace('comfb', 'Comment Post Facebook telah diubah').replace('subtele', 'Subcribe Channel Telegram telah diubah').replace('angtele', 'Anggota Group Telegram telah diubah').replace('syarat', 'Syarat & Ketentuan telah diubah').replace('menu', 'menu telah diubah').replace('fly5', 'List Payment telah diubah')
+let msg = type.replace('arminadaily', 'Produk Arminadaily telah diubah').replace('ml', 'Drop Mobile Legend telah diubah').replace('ff', 'Price Diamond FF telah diubah').replace('pubg', 'Drop Pubgm telah diubah').replace('topupdana', 'Top Up Ovo Gopay Dana telah diubah').replace('Pulsa', 'Pulsa telah diubah').replace('kuota', 'kuota internet atau voucer telah diubah').replace('token', 'Token Listrik telah diubah').replace('folig', 'Followers Instagram telah diubah').replace('likeig', 'Like Post Instagram telah diubah').replace('comig', 'Comment Post Instagram telah diubah').replace('folfb', 'Followers Facebook telah diubah').replace('likefb', 'Like Post Facebook telah diubah').replace('comfb', 'Comment Post Facebook telah diubah').replace('subtele', 'Subcribe Channel Telegram telah diubah').replace('angtele', 'Anggota Group Telegram telah diubah').replace('syarat', 'Syarat & Ketentuan telah diubah').replace('menu', 'menu telah diubah').replace('payment', 'List Payment telah diubah')
  
 await conn.sendLoc(m.chat, img, msg, global.footer, 'LIST MENU', '#menu', null)
  
