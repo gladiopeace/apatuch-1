@@ -8,6 +8,6 @@ conn.send2Loc(m.chat, img, isi, global.footer, 'BACK MENU', '*menu', 'ADMIN', '*
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(menu|help)$/i
+handler.command = /^(menu|Menu|MENU|Help|HELP|help)$/i
 module.exports = handler
 //@amirul.dev
