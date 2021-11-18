@@ -7,6 +7,6 @@ conn.send2Loc(m.chat, img, isi, global.footer, 'BACK MENU', '*menu', 'ADMIN', '*
 }
 handler.help = ['fly3']
 handler.tags = ['main']
-handler.command = /^(fly3)$/i
+handler.command = /^(pubg|Pubg|PUBG)$/i
 module.exports = handler
 //@amirul.dev
