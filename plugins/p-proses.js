@@ -30,7 +30,7 @@ let d = new Date(new Date + 3600000)
 let isi = fs.readFileSync('src/msg/fly7.txt', 'utf8')
 
 let psn = isi.replace('%waktu', time).replace('%tanggal', date)
-m.reply(pns)
+m.reply(psn)
 /*conn.send2Loc(m.chat, img, psn, global.footer, 'BACK MENU', '#menu', 'ADMIN', '#owner', m)*/
 
 }
