@@ -471,7 +471,7 @@ conn.sendLoc(jid, action === 'add' ? h1 : ilea, text, global.footer, 'LIST MENU'
           }
         }
         break
-      case 'promote':
+      /*case 'promote':
         text = (chat.sPromote || this.spromote || conn.spromote || 'Selamat @user anda sekarang menjadi admin grup!!')
       case 'demote':
         if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || 'Hai, @user sekarang kamu bukan Admin')
@@ -482,7 +482,7 @@ conn.sendLoc(jid, action === 'add' ? h1 : ilea, text, global.footer, 'LIST MENU'
             mentionedJid: this.parseMention(text)
           }
         })
-        break
+        break*/
     }
   },
   async delete(m) {
