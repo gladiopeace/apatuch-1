@@ -1,6 +1,6 @@
 //@amirul.dev
 let handler = async (m, { conn }) => {
-const fs = require('node-fetch')
+const fs = require('node-fetch', 'fs')
 let img = await (await fs('https://i.ibb.co/t2L1jbH/IMG-20211114-WA0008.jpg')).buffer()
 let isi = fs.readFileSync('src/msg/qris.txt', 'utf8')
 let a = '```'
