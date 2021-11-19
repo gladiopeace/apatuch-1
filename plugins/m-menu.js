@@ -138,34 +138,44 @@ if (teks == '404') {
                   "rowId": "*arminadaily"
 		},*/
 		{
-                  "title":  `Diamond Mobile Legedns`,
+                  "title":  `DM MLBB FAST`,
                   "description": "",
                   "rowId": "?ml"
                 },
-		{
-                  "title":  `Reseller Mobile Legedns`,
+		/*{
+                  "title":  `Reseller Mobile Legends`,
                   "description": "harga khusus reseller",
                   "rowId": "?resml"
-                },
+                },*/
                 {
-                  "title":  `Diamond Free Fire`,
+                  "title":  `DM FREE FIRE`,
                   "description": "",
                   "rowId": "?ff"
                 },
-	        {
+	        /*{
                   "title":  `Reseller Diamond Free Fire`,
                   "description": "harga khusus reseller",
                   "rowId": "?resff"
-                },
+                },*/
                 {
-                  "title":  `Uc Pubgm Id Indo`,
+                  "title":  `UC PUBG REGION/WILAYAH INDO`,
                   "description": "",
                   "rowId": "?pubg"
                 },
-                {
+                /*{
                   "title":  `Reseller Uc Pubgm Id Indo`,
                   "description": "harga khusus reseller",
                   "rowId": "?respubg"
+                },*/
+	        {
+                  "title":  `PRE ORDER MLBB`,
+                  "description": "",
+                  "rowId": "?preorder"
+                },
+		{
+                  "title":  `GIFT SKIN MLBB`,
+                  "description": "",
+                  "rowId": "?giftml"
                 },
  /*   		{
                   "title": "Top Up Ovo/Gopay/Dana",
