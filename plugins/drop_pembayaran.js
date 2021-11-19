@@ -8,7 +8,7 @@ conn.send2BtnImg(m.chat, img, `🏪 *Payment E-wallet* 🏪
 DANA: 085155333010
 OVO : 085155333010
 Gopay : 085155333010
-Qris : Ada diatas
+Qris : Ada diatas(LIMIT)
 
 PEMBAYARAN VIA ALFAMART
 HUBUNGI ADMIN, AGAR ADMIN BUATKAN KODE PEMBAYARANNYA
@@ -21,8 +21,7 @@ COD WILAYAH CIAMIS SEKITARNYA
 
 Semua payment A/n  : 
 *M. ALAIKA ALYASAAR*`, global.footer, 'BACK MENU', '?menu', 'ADMIN', '?owner')
-let isi = fs.readFileSync('src/msg/qris.txt', 'utf8')
-m.reply(isi)
+
 }
 handler.help = ['fly5']
 handler.tags = ['main']
