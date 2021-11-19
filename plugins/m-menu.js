@@ -13,29 +13,8 @@ let ft = gs(logo)
 let pict2 = fs.readFileSync(`tmp/${ft}.jpg`)
 
 const defaultMenu = {
-  before: `┌━━━━━━━━━━━━━━━━━┈ ⳹
-│            *${bname}* 
-┕┬───────────────┈ ⳹
-┌┤Nama : %name
-││Tier: %role
-││Limit : %limit Limit
-││Level : %level (%exp / %maxexp)
-││EXP : %totalexp
-│┕────────────┈ ⳹
-│DATABASE USER
-│• Pengguna aktif:  21%rtotalreg orang
-│• Pengguna Pasif: %totalreg orang
-┕─────────────────┈ ⳹
-INFORMASI:
-Jangan spam jika bot delay
-menu button tidak bekerja
-pada pesan sementara maupun
-whatsapp mod
- 
-🔥: Fitur untuk member premium
-♨️: Fitur memakai limit
+  before: `┌━━━━━━kosong
 
-ada bug / eror? lapor owner
 `.trimStart(),
  header: '─ 「 %category 」 ─',
   body: '⬡ %cmd %islimit %isPremium',
@@ -161,47 +140,47 @@ if (teks == '404') {
 		{
                   "title":  `Diamond Mobile Legedns`,
                   "description": "",
-                  "rowId": "*ml"
+                  "rowId": "?ml"
                 },
 		{
                   "title":  `Reseller Mobile Legedns`,
                   "description": "harga khusus reseller",
-                  "rowId": "*resml"
+                  "rowId": "?resml"
                 },
                 {
                   "title":  `Diamond Free Fire`,
                   "description": "",
-                  "rowId": "*ff"
+                  "rowId": "?ff"
                 },
 	        {
                   "title":  `Reseller Diamond Free Fire`,
                   "description": "harga khusus reseller",
-                  "rowId": "*resff"
+                  "rowId": "?resff"
                 },
                 {
                   "title":  `Uc Pubgm Id Indo`,
                   "description": "",
-                  "rowId": "*pubg"
+                  "rowId": "?pubg"
                 },
                 {
                   "title":  `Reseller Uc Pubgm Id Indo`,
                   "description": "harga khusus reseller",
-                  "rowId": "*respubg"
+                  "rowId": "?respubg"
                 },
  /*   		{
                   "title": "Top Up Ovo/Gopay/Dana",
                   "description": "",
-                  "rowId": "*fly4"
+                  "rowId": "?fly4"
 		},
 		{
                   "title": "Pulsa",
                   "description": "",
-                  "rowId": "*pulsa"
+                  "rowId": "?pulsa"
 		},
 		{
                   "title": "Kuota Internet & Voucher",
                   "description": "",
-                  "rowId": "*kuota"
+                  "rowId": "?kuota"
 		},
 		{
                   "title": "Token Listrik",
