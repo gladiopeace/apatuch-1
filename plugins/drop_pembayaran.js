@@ -2,6 +2,7 @@
 let handler = async (m, { conn }) => {
 const fs = require('node-fetch')
 let img = await (await fs('https://i.ibb.co/t2L1jbH/IMG-20211114-WA0008.jpg')).buffer()
+let isi = fs.readFileSync('src/msg/qris.txt', 'utf8')
 let a = '```'
 conn.send2BtnImg(m.chat, img, `🏪 *Payment E-wallet* 🏪
 DANA: 085155333010
@@ -20,6 +21,7 @@ COD WILAYAH CIAMIS SEKITARNYA
 
 Semua payment A/n  : 
 *M. ALAIKA ALYASAAR*`, global.footer, 'BACK MENU', '?menu', 'ADMIN', '?owner')
+m.reply(isi)
 }
 handler.help = ['fly5']
 handler.tags = ['main']
