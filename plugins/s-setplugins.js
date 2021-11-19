@@ -290,8 +290,7 @@ throw false
  
 let img = fs.readFileSync('tmp/SAVE_20211115_044443.jpg')
 let msg = type.replace('arminadaily', 'Produk Arminadaily telah diubah').replace('ml', 'Drop Mobile Legend telah diubah').replace('resml', 'Drop Reseller Mobile Legend telah diubah').replace('ff', 'Price Diamond FF telah diubah').replace('resff', 'Drop Reseller Free Fire telah diubah').replace('pubg', 'Drop Pubgm telah diubah').replace('respubg', 'DROP Reseller PUBG telah diubah').replace('preorder', 'PRE ORDER MLBB telah diubah').replace('gifml', 'GIFT SKIN MLBB telah diubah').replace('topupdana', 'Top Up Ovo Gopay Dana telah diubah').replace('Pulsa', 'Pulsa telah diubah').replace('kuota', 'kuota internet atau voucer telah diubah').replace('token', 'Token Listrik telah diubah').replace('folig', 'Followers Instagram telah diubah').replace('likeig', 'Like Post Instagram telah diubah').replace('comig', 'Comment Post Instagram telah diubah').replace('folfb', 'Followers Facebook telah diubah').replace('likefb', 'Like Post Facebook telah diubah').replace('comfb', 'Comment Post Facebook telah diubah').replace('subtele', 'Subcribe Channel Telegram telah diubah').replace('angtele', 'Anggota Group Telegram telah diubah').replace('syarat', 'Syarat & Ketentuan telah diubah').replace('menu', 'menu telah diubah').replace('payment', 'List Payment telah diubah')
- 
-await conn.sendLoc(m.chat, img, msg, global.footer, 'LIST MENU', '#menu', null)
+m.reply(msg)
  
 await global.db.write()
 process.send('reset')
