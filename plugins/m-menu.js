@@ -240,12 +240,12 @@ if (teks == '404') {
 		{
                   "title": "Syarat & Ketentuan",
                   "description": "",
-                  "rowId": "*syarat"
+                  "rowId": "?syarat"
 		},
 		{
                   "title": "Pembayaran Atau List Payment",
                   "description": "",
-                  "rowId": "*fly5"
+                  "rowId": "?fly5"
 		}					
                                           
  
