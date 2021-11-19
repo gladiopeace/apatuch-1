@@ -1,1 +1,9 @@
-ini format
+FORMAT ORDER 
+MOBILE LEGENDS
+┏▬▬▬▬▬ ▬
+┠NICK :
+┠USER ID :
+┠NO SERVER :
+┠JUMLAH ORDER :
+┠SISA DIAMOND :
+┗▬▬▬▬▬▬ ▬
