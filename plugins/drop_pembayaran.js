@@ -19,7 +19,7 @@ COD WILAYAH CIAMIS SEKITARNYA
 ( *transaksi dibawah _Rp.10.000_ wajib ke DANA* )
 
 Semua payment A/n  : 
-*M. ALAIKA ALYASAAR*`, global.footer, 'BACK MENU', '#menu', 'ADMIN', '#owner')
+*M. ALAIKA ALYASAAR*`, global.footer, 'BACK MENU', '?menu', 'ADMIN', '?owner')
 }
 handler.help = ['fly5']
 handler.tags = ['main']
