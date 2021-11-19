@@ -4,7 +4,9 @@ let fs = require('fs')
 let handler = async (m, { conn }) => {
 let img = fs.readFileSync('tmp/SAVE_20211115_044443.jpg')
 let isi = fs.readFileSync('src/msg/fly1.txt', 'utf8')
+let formatml = fs.readFileSync('src/msg/formatml.txt', 'utf8')
 m.reply(isi)
+m.reply(formatml)
 /*conn.send2Loc(m.chat, img, isi, global.footer, 'BACK MENU', '*menu', 'ADMIN', '*owner', m)*/
 
 }
