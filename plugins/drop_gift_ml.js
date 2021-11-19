@@ -14,6 +14,6 @@ m.reply(formatml)
 //handler.help = ['script']
 
 //handler.tags = ['main']
-handler.command = /^(preorder)$/i
+handler.command = /^(giftml)$/i
 module.exports = handler
 //@amirul.dev
