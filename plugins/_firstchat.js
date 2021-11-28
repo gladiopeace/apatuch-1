@@ -9,7 +9,8 @@ handler.all = async function (m) {
     if (db.data.settings.groupOnly) return
     let user = global.db.data.users[m.sender]
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
-    m.reply(`_ini no bot, silahkan hubungi admin dengan mengetik #owner atau ke wa.me/6283102050562_`)
+    m.reply(`ini pesan otomatis dibalas komputer`)
+    m.reply(`saya akan membalas secepatnya`)
     user.pc = new Date * 1
 }
 
