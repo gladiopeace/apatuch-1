@@ -585,8 +585,9 @@ Contoh:
   }[type]
 let iban = gs(global.logo)
 let banm = fs.readFileSync(`tmp/${iban}.jpg`)
-  if (msg) return conn.send2Loc(m.chat, banm, msg, global.footer, 'MENU', '#menu', 'OWNER', '#owner')
-
+  /*if (msg) return conn.send2Loc(m.chat, banm, msg, global.footer, 'MENU', '#menu', 'OWNER', '#owner')*/
+  m.reply(msg)
+	
 }  
   
 
