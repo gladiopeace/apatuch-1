@@ -580,7 +580,7 @@ Silahkan daftar terlebih dahulu untuk menggunakan bot ini.
 pastikan data yang di isi valid, guna agar dapat berteman se-region
 
 Contoh:
-#daftar Amirul Dev.20.Madiun`,
+#daftar Kya.20.Bandung`,
     nsfw: 'NSFW tidak aktif'
   }[type]
 let iban = gs(global.logo)
