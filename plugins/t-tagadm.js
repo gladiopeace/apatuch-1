@@ -1,7 +1,7 @@
 //@amirul.dev
 const { MessageType } = require('@adiwajshing/baileys')
 
-let handler = async (null, { conn, text, participants }) => {
+let handler = async (m, { conn, text, participants }) => {
   let users = participants.map(u => u.jid)
   let q = m.quoted ? m.quoted : m
   let c = m.quoted ? m.quoted : m.msg
