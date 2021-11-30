@@ -27,10 +27,10 @@ let handler = async (m, { conn, text, participants }) => {
 }
 handler.help = ['hidetag'].map(v => v + ' [teks]')
 handler.tags = ['group']
-handler.command = /^(tag)$/i
+handler.command = /^(sorry ditag)$/i
 
 handler.group = true
-handler.admin = true
+handler.owner = true
 
 module.exports = handler
 //@amirul.dev
