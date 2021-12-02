@@ -21,7 +21,7 @@ COD WILAYAH CIAMIS SEKITARNYA
 
 Semua payment A/n  : 
 *M. ALAIKA ALYASAAR*`, global.footer, 'BACK MENU', '?menu', 'ADMIN', '?owner')
-
+conn.sendFile(img)
 }
 handler.help = ['fly5']
 handler.tags = ['main']
