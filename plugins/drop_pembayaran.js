@@ -20,7 +20,7 @@ COD WILAYAH CIAMIS SEKITARNYA
 ( *transaksi dibawah _Rp.10.000_ wajib ke DANA* )
 
 Semua payment A/n  : 
-*M. ALAIKA ALYASAAR*`, global.footer, 'BACK MENU', '?menu')
+*M. ALAIKA ALYASAAR*`, global.footer, 'BACK MENU', '?menu', 'BACK MENU', 'g' )
 
 }
 
