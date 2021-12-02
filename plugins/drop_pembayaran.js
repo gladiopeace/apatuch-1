@@ -1,10 +1,9 @@
 //@amirul.dev
 let handler = async (m, { conn }) => {
 const fs = require('node-fetch')
-let img = await (await fs('https://i.ibb.co/t2L1jbH/IMG-20211114-WA0008.jpg')).buffer()
 
 let a = '```'
-conn.sendBtnImg(m.chat, img, `🏪 *Payment E-wallet* 🏪
+conn.sendBtn(m.chat, `🏪 *Payment E-wallet* 🏪
 DANA: 085155333010
 OVO : 085155333010
 Gopay : 085155333010
