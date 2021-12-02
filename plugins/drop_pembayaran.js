@@ -4,7 +4,6 @@ const fs = require('node-fetch')
 let img = await (await fs('https://i.ibb.co/t2L1jbH/IMG-20211114-WA0008.jpg')).buffer()
 
 let a = '```'
-conn.sendFile(m.chat, img, `silahkan discan`)
 conn.sendBtn(m.chat, img, `🏪 *Payment E-wallet* 🏪
 DANA: 085155333010
 OVO : 085155333010
@@ -22,7 +21,7 @@ COD WILAYAH CIAMIS SEKITARNYA
 
 Semua payment A/n  : 
 *M. ALAIKA ALYASAAR*`, global.footer, 'BACK MENU', '?menu')
-  
+conn.sendFile(m.chat, img, `silahkan discan`) 
 }
 
 handler.help = ['fly5']
