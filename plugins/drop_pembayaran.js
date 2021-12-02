@@ -21,7 +21,7 @@ COD WILAYAH CIAMIS SEKITARNYA
 
 Semua payment A/n  : 
 *M. ALAIKA ALYASAAR*`, global.footer, 'BACK MENU', '?menu', 'ADMIN', '?owner')
-conn.sendFile(m.chat,img`silahkan discan`)
+conn.sendFile(m.chat, img, `silahkan discan`)
 }
 handler.help = ['fly5']
 handler.tags = ['main']
