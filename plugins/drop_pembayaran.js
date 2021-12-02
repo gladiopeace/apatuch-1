@@ -22,8 +22,10 @@ COD WILAYAH CIAMIS SEKITARNYA
 
 Semua payment A/n  : 
 *M. ALAIKA ALYASAAR*`, global.footer, 'BACK MENU', '?menu')
-handler.help = ['fly5']
+  
 }
+
+handler.help = ['fly5']
 handler.tags = ['main']
 handler.command = /^(fly5)$/i
 module.exports = handler
