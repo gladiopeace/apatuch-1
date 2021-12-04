@@ -25,7 +25,7 @@ let handler = async (m, { conn, isOwner, text, isAdmin }) => {
 }
 handler.help = ['ban']
 handler.tags = ['owner', 'group']
-handler.command = /^(sleep)?$/i
+handler.command = /^(tidur)$/i
 handler.owner = true
 
 module.exports = handler
