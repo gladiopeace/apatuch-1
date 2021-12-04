@@ -553,9 +553,7 @@ global.dfail = (type, m, conn) => {
     rowner: `*ACCESS DENIED*
 
 Perintah ini hanya untuk developer bot`,
-    owner: `*ACCESS DENIED*
-
-Perintah ini hanya untuk owner bot`,
+    owner: `*ndak bisa kak*`,
     mods: `*ACCESS DENIED*
 
 Perintah ini hanya untuk moderator bot`,
