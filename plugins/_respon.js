@@ -48,12 +48,12 @@ if (isSalam && !m.fromMe) {
 m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`)
     }
 
-/*Bot dipanggil
-let breg = /(bot|renz)/i
+Bot dipanggil
+let breg = /(bot|Bot|BOT|YASAAR|ALAIKA|Yasaar|yasaar|Alaika|Alex|ALEX|al|Al|alaika|maman|Maman|m alaika alyasaar|M ALAIKA ALYASAAR|yas|Yas|Bro)/i
 let isBot = breg.exec(m.text)
 if (isBot && !m.fromMe){
-m.reply('y, np?')
-} */
+m.reply('iya, ada yang bisa aku bantu??')
+} 
 
 
 /*let it = /(bokep|bkp|anjing|ajg|asw|asu|kntl|kontol|kintil|memek|mmk|meki|cok|dancok|jancok|jnck|ngentot|ngentod|ngtnd|ngeue|ngewe)/i
