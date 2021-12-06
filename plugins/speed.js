@@ -35,15 +35,13 @@ let handler = async (m, { conn }) => {
     }
   })
   let old = performance.now()
-  await m.reply('_Testing speed..._')
+  await m.reply('_menghitung kecepatan bot..._')
   let neww = performance.now()
   let speed = neww - old
   let txt = `
-*KECEPATAN RESPON BOT:*
+*RESPON BOT:*
 ${speed} _millidetik_
-_*bila admin tidak terkoneksi*_
-_*inernet maka bot akan off*_
-💻 *SERVER BOT* :
+*STORAGE BOT* :
 RAM: ${format(os.totalmem() - os.freemem())} / ${format(os.totalmem())}
 `.trim()
   m.reply(txt)
