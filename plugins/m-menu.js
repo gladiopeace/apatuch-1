@@ -238,12 +238,17 @@ if (teks == '404') {
                   "rowId": "*angtele"
 		},*/
 		{
-                  "title": "Syarat & Ketentuan",
+                  "title": "⚙️Syarat & Ketentuan⚙️",
                   "description": "",
                   "rowId": "?syarat"
 		},
 		{
-                  "title": "Pembayaran Atau List Payment",
+                  "title": "⚠️PERATURAN GROUP⚠️",
+                  "description": "",
+                  "rowId": "?rules"
+		},
+		{
+                  "title": "💶Pembayaran💶",
                   "description": "",
                   "rowId": "?fly5"
 		}					
