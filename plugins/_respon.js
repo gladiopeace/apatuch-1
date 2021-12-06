@@ -47,21 +47,21 @@ let isSalam = reg.exec(m.text)
 if (isSalam && !m.fromMe) {
 m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`)
     }
-
+//|YASAAR|ALAIKA|Yasaar|yasaar|Alaika|Alex|ALEX|al|Al|alaika|maman|Maman|m alaika alyasaar|M ALAIKA ALYASAAR|yas|Yas
 //Bot dipanggil
-let breg = /(hey bot|YASAAR|ALAIKA|Yasaar|yasaar|Alaika|Alex|ALEX|al|Al|alaika|maman|Maman|m alaika alyasaar|M ALAIKA ALYASAAR|yas|Yas)/i
+let breg = /(bot hageuy)/i
 let isBot = breg.exec(m.text)
 if (isBot && !m.fromMe){
 m.reply('iya, ada yang bisa aku bantu??')
 }
 
 
-/*let it = /(bokep|bkp|anjing|ajg|asw|asu|kntl|kontol|kintil|memek|mmk|meki|cok|dancok|jancok|jnck|ngentot|ngentod|ngtnd|ngeue|ngewe)/i
+let it = /(bokep|bkp|anjing|ajg|asw|asu|kntl|kontol|kintil|memek|mmk|meki|cok|dancok|jancok|jnck|ngentot|ngentod|ngtnd|ngeue|ngewe)/i
 let isTob = it.exec(m.text)
 if (isTob && !m.fromMe){
-    m.reply(`jangan ngomong kasar kak *${name}* dosa lho, nanti dimarahin mamanya`)
+    m.reply(`jangan ngomong kasar kak *${name}* dosa lho, nanti dimarahin mamanya🥺`)
 }
-*/
+
 
     // backup db
     if (setting.backup) {
