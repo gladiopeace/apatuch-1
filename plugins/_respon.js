@@ -47,7 +47,7 @@ let isSalam = reg.exec(m.text)
 if (isSalam && !m.fromMe) {
 m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`)
     }
-//|YASAAR|ALAIKA|Yasaar|yasaar|Alaika|Alex|ALEX|al|Al|alaika|maman|Maman|m alaika alyasaar|M ALAIKA ALYASAAR|yas|Yas
+/*/|YASAAR|ALAIKA|Yasaar|yasaar|Alaika|Alex|ALEX|al|Al|alaika|maman|Maman|m alaika alyasaar|M ALAIKA ALYASAAR|yas|Yas
 //Bot dipanggil
 let breg = /(bot hageuy)/i
 let isBot = breg.exec(m.text)
@@ -61,7 +61,7 @@ let isTob = it.exec(m.text)
 if (isTob && !m.fromMe){
     m.reply(`jangan ngomong kasar kak *${name}* dosa lho, nanti dimarahin mamanya🥺`)
 }
-
+*/
 
     // backup db
     if (setting.backup) {
