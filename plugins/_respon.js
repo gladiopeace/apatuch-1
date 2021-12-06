@@ -49,7 +49,7 @@ m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ ال
     }
 
 //Bot dipanggil
-let breg = /(bot|Bot|BOT|YASAAR|ALAIKA|Yasaar|yasaar|Alaika|Alex|ALEX|al|Al|alaika|maman|Maman|m alaika alyasaar|M ALAIKA ALYASAAR|yas|Yas|Bro)/i
+let breg = /(hey bot|YASAAR|ALAIKA|Yasaar|yasaar|Alaika|Alex|ALEX|al|Al|alaika|maman|Maman|m alaika alyasaar|M ALAIKA ALYASAAR|yas|Yas)/i
 let isBot = breg.exec(m.text)
 if (isBot && !m.fromMe){
 m.reply('iya, ada yang bisa aku bantu??')
