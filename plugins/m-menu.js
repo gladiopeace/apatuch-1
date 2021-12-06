@@ -173,7 +173,7 @@ if (teks == '404') {
                   "rowId": "?preorder"
                 },
 		{
-                  "title":  `GIFT SKIN MLBB`,
+                  "title":  `GIFT MLBB`,
                   "description": "",
                   "rowId": "?giftml"
                 },
@@ -238,17 +238,17 @@ if (teks == '404') {
                   "rowId": "*angtele"
 		},*/
 		{
-                  "title": "⚙️Syarat & Ketentuan⚙️",
+                  "title": "PERATURAN",
                   "description": "",
                   "rowId": "?syarat"
 		},
-		{
-                  "title": "⚠️PERATURAN GROUP⚠️",
+		/*{
+                  "title": "PERATURAN GROUP",
                   "description": "",
                   "rowId": "?rules"
-		},
+		},*/
 		{
-                  "title": "💶Pembayaran💶",
+                  "title": "⚠️PEMBAYARAN⚠️",
                   "description": "",
                   "rowId": "?fly5"
 		}					
