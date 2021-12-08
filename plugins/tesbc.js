@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text }) => {
 
-await conn.send2BtnVid('628882611841@s.whatsapp.net', await (await require('node-fetch')("http://sansekai.my.id/ptl_repost/120575986_151816433263092_6600262966520398271_n.mp4")).buffer(), 'awali harimu dengan asupan', global.footer, 'MENU', '#menu', 'OWNER', '#owner', m)
-
+await conn.send2BtnVid('623102050562@s.whatsapp.net', await (await require('node-fetch')("http://sansekai.my.id/ptl_repost/120575986_151816433263092_6600262966520398271_n.mp4")).buffer(), 'awali harimu dengan asupan', global.footer, 'MENU', '#menu', 'OWNER', '#owner', m)
+m.reply("okeh")
 
 }
 
