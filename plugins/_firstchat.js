@@ -9,8 +9,8 @@ handler.all = async function (m) {
     if (db.data.settings.groupOnly) return
     let user = global.db.data.users[m.sender]
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
-    m.reply(`ini pesan otomatis dibalas komputer`)
-    m.reply(`saya akan membalas secepatnya`)
+    m.reply(`bot sedang perbaikan`)
+    m.reply(`oh iya, bagi yang ingin beli atau menjual kembali diamond ml/ff bisa gabung ke group https://chat.whatsapp.com/Guj7VDr9Vo6DpGnrySunAS `)
     user.pc = new Date * 1
 }
 
